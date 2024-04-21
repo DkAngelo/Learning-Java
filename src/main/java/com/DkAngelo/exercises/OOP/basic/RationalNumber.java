@@ -1,4 +1,4 @@
-package com.DkAngelo.exercises.OOP;
+package com.DkAngelo.exercises.OOP.basic;
 
 import java.lang.Object;
 import java.util.Objects;

@@ -1,5 +1,6 @@
 package com.DkAngelo.exercises.OOP;
 
+import com.DkAngelo.exercises.OOP.basic.ClickCounter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

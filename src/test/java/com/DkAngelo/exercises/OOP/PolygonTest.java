@@ -1,5 +1,6 @@
 package com.DkAngelo.exercises.OOP;
 
+import com.DkAngelo.exercises.OOP.basic.Polygon;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -9,11 +10,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PolygonTest {
     public static final double DELTA = 1e-06;
-    Polygon square;
-    Polygon triangle;
+    com.DkAngelo.exercises.OOP.basic.Polygon square;
+    com.DkAngelo.exercises.OOP.basic.Polygon triangle;
     @BeforeEach
     void setUp() {
-        square = new Polygon(new Point[]{new Point(0,0), new Point(0, 10), new Point(10,10), new Point(10, 0)});
+        square = new com.DkAngelo.exercises.OOP.basic.Polygon(new Point[]{new Point(0,0), new Point(0, 10), new Point(10,10), new Point(10, 0)});
         triangle = new Polygon(new Point[]{new Point(0,0), new Point(10, 0), new Point(5,10)});
     }
 

@@ -1,4 +1,4 @@
-package com.DkAngelo.exercises.OOP;
+package com.DkAngelo.exercises.OOP.basic;
 
 import java.awt.*;
 import java.util.Arrays;

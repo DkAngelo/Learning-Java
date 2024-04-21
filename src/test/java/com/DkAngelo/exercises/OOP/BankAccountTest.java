@@ -1,5 +1,6 @@
 package com.DkAngelo.exercises.OOP;
 
+import com.DkAngelo.exercises.OOP.basic.BankAccount;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
